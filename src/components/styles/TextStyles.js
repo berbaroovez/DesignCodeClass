@@ -3,16 +3,25 @@ import styled from "styled-components"
 export const H1 = styled.h1`
   font-weight: bold;
   font-size: 60px;
+  @media (max-width: 450px) {
+    font-size: 34px;
+  }
 `
 
 export const H2 = styled.h2`
   font-weight: bold;
   font-size: 40px;
+  @media (max-width: 450px) {
+    font-size: 28px;
+  }
 `
 
 export const H3 = styled.h3`
   font-weight: bold;
   font-size: 30px;
+  @media (max-width: 450px) {
+    font-size: 24px;
+  }
 `
 
 export const BodyIntro = styled.p`
@@ -57,4 +66,4 @@ export const SmallText2 = styled.p`
   font-size: 13px;
   line-height: 130%;
   text-transform: uppercase;
-  `
+`
